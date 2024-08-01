@@ -1,9 +1,10 @@
+// components/CalendarView.tsx
 import { Calendar } from 'antd'
 import disabledDate from '../../utils/disabledDate'
-import RenderCell from './addEventButton'
+import EventRenderCell from './EventRenderCell'
 
 const CalendarView: React.FC = () => {
-  return <Calendar disabledDate={disabledDate} cellRender={RenderCell} />
+	return <Calendar disabledDate={disabledDate} cellRender={EventRenderCell} />
 }
 
 export default CalendarView

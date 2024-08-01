@@ -1,0 +1,15 @@
+.cell-container {
+	position: relative;
+}
+
+.cell-container .add-button {
+	display: none;
+}
+
+.cell-container:hover .add-button {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
