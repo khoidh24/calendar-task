@@ -116,10 +116,9 @@ const AddForm: React.FC<AddFormProps> = ({ setIsModalVisible }) => {
 									border: '1px solid #f0f0f0',
 									borderRadius: 8,
 									padding: 16,
-									textAlign: 'center',
 								}}
 							>
-								<h3 style={{ fontWeight: 800 }}>
+								<h3 style={{ fontWeight: 800, width: '100%', textAlign: 'center' }}>
 									{eventTitles[index] || `Event ${index + 1}`}
 								</h3>
 								<Form.Item
